@@ -1,0 +1,224 @@
+﻿
+body {
+    background-image: url(../img/background.png);
+    height: 1000px;
+}
+
+.main {
+    width: 1000px;
+    height: 991px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    font-family: Tahoma;
+}
+.logo {
+    float: left;
+    margin-top: 31px;
+    margin-left: 32px;
+}
+.header {
+    margin: 0;
+    padding:0;
+    border: 0;
+}
+.header:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+.contacts {
+    float: right;
+    margin: 0;
+    margin-top:12px;
+    margin-right: 32px;
+    color: #7bb3c4;
+}
+.contacts p{
+    padding-top: 5px;
+    color: #5fa5bb;
+
+}
+.contacts h6 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #7bb3c4;
+}
+.contacts:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.countries {
+    float: right;
+    display: inline-block;
+    margin: 0;
+    box-shadow: none;
+    margin-top: 0%;
+    width: 655px;
+    margin-left: 31px;
+}
+.countries p {
+    float: right;
+    margin: 0;
+    font-size: 11px;
+    width: 65px;
+    padding-top: 1px;
+}
+.countries a {
+    color: #41a1b9;
+}
+
+.india {
+    width: 40px;
+    background-image: url(../img/i_flag.png);
+    background-repeat: no-repeat;
+    padding-left: 9px;
+    padding-top: 43px;
+
+}
+.nepal {
+    background-image: url(../img/n_flag.png);
+    background-repeat: no-repeat;
+    padding-left: 14%;
+    padding-top: 43px;
+    padding-right: 1px;
+}
+.tybet {
+    background-image: url(../img/t_flag.png);
+    background-repeat: no-repeat;
+    padding-left: 11px;
+    padding-top: 43px;
+}
+.butan {
+    background-image: url(../img/b_flag.png);
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    padding-top: 43px;
+}
+.lanka {
+    background-image: url(../img/s_flag.png);
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-top: 43px;
+}
+.maldivy {
+    background-image: url(../img/m_flag.png);
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-top: 43px;
+}
+.photo {
+    margin: 0;
+    box-shadow: none;
+    margin-top: 6px;
+    border-top: 1px solid #128aa7;
+}
+.photo img {
+    height: 247px;
+    width:1000px;
+}
+.center_panel {
+    margin: 0;
+    background: #343434;
+    border-bottom: 1px solid black;
+}
+.center_panel li {
+    display: inline-block;
+    padding-right: 68px;
+    color: white;
+}
+
+.second:after{
+    content: '';
+    position: absolute;
+    left: 100px;
+    top: 15px;
+    border: 5px solid transparent;
+    border-top: 5px solid white;
+}
+.third:after {
+    content: '';
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    border: 5px solid transparent;
+    border-top: 5px solid white;
+}
+.fourth:after {
+    content: '';
+    position: absolute;
+    left: 85px;
+    top: 15px;
+    border: 5px solid transparent;
+    border-top: 5px solid white;
+}
+.center_panel li:first-child {
+    padding: 4.5px 54px 11px 50px;
+}
+#nav li{
+    position: relative;
+}
+#nav ul{
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    margin-top: 11px;
+    margin-left: -11px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+}
+#nav ul li {
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 45px;
+    white-space: nowrap;
+    display: block;
+}
+#nav li:hover ul {
+    position: absolute;
+    left:0;
+    opacity:1;
+    background: #343434;
+}
+#nav a {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.left_panel{
+    margin: 0;
+    box-shadow: none;
+    width: 209px;
+    height: 505px;
+    float: left;
+    background: #edeef0;
+    border-right: 1px solid #c7cacf;
+}
+.right_panel {
+    float: right;
+    width: 209px;
+    height: 505px;
+    border-left: 1px solid #c7cacf;
+    background: #edeef0;
+}
+.content h6 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.content p {
+    padding-left: 15px;
+    padding-bottom: 16px;
+    font-size: 15px;
+}
+.copyright {
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
